@@ -1,0 +1,141 @@
+Sandbox_EN = {
+	Sandbox_Injectors = "Injectors",
+
+	Sandbox_Injectors_RollCount  					= "Roll Count",
+	Sandbox_Injectors_RollCount_tooltip 			= "Amount of tries to successfully spawn an item.",
+
+	Sandbox_Injectors_SpawnRooms 					= "Spawn Rooms",
+	Sandbox_Injectors_SpawnRooms_tooltip 			= "List of rooms where loot spawns.<br>Should be separated with ;",
+
+	Sandbox_Injectors_allow_adrenaline              = "Spawn Adrenaline Injectors",
+	Sandbox_Injectors_allow_adrenaline_tooltip      = "Allow Adrenaline injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_ahf1                    = "Spawn Ahf1 Injectors",
+	Sandbox_Injectors_allow_ahf1_tooltip            = "Allow Ahf1 injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_btg2a2                  = "Spawn Btg2a2 Injectors",
+	Sandbox_Injectors_allow_btg2a2_tooltip          = "Allow Btg2a2 injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_btg3                    = "Spawn Btg3 Injectors",
+	Sandbox_Injectors_allow_btg3_tooltip            = "Allow Btg3 injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_etg                     = "Spawn Etg Injectors",
+	Sandbox_Injectors_allow_etg_tooltip             = "Allow Etg injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_meldonin                = "Spawn Meldonin Injectors",
+	Sandbox_Injectors_allow_meldonin_tooltip        = "Allow Meldonin injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_morphine                = "Spawn Morphine Injectors",
+	Sandbox_Injectors_allow_morphine_tooltip        = "Allow Morphine injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_mule                    = "Spawn Mule Injectors",
+	Sandbox_Injectors_allow_mule_tooltip            = "Allow Mule injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_norepinephrine          = "Spawn Norepinephrine Injectors",
+	Sandbox_Injectors_allow_norepinephrine_tooltip  = "Allow Norepinephrine injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_obdolbos                = "Spawn Obdolbos Injectors",
+	Sandbox_Injectors_allow_obdolbos_tooltip        = "Allow Obdolbos injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_obdolbos2               = "Spawn Obdolbos2 Injectors",
+	Sandbox_Injectors_allow_obdolbos2_tooltip       = "Allow Obdolbos2 injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_p22                     = "Spawn P22 Injectors",
+	Sandbox_Injectors_allow_p22_tooltip             = "Allow P22 injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_perfotoran              = "Spawn Perfotoran Injectors",
+	Sandbox_Injectors_allow_perfotoran_tooltip      = "Allow Perfotoran injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_pnb                     = "Spawn Pnb Injectors",
+	Sandbox_Injectors_allow_pnb_tooltip             = "Allow Pnb injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_propital                = "Spawn Propital Injectors",
+	Sandbox_Injectors_allow_propital_tooltip        = "Allow Propital injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_sj1                     = "Spawn Sj1 Injectors",
+	Sandbox_Injectors_allow_sj1_tooltip             = "Allow Sj1 injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_sj6                     = "Spawn Sj6 Injectors",
+	Sandbox_Injectors_allow_sj6_tooltip             = "Allow Sj6 injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_sj9                     = "Spawn Sj9 Injectors",
+	Sandbox_Injectors_allow_sj9_tooltip             = "Allow Sj9 injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_sj12                    = "Spawn Sj12 Injectors",
+	Sandbox_Injectors_allow_sj12_tooltip            = "Allow Sj12 injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_trimadol                = "Spawn Trimadol Injectors",
+	Sandbox_Injectors_allow_trimadol_tooltip        = "Allow Trimadol injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_xtg                     = "Spawn Xtg Injectors",
+	Sandbox_Injectors_allow_xtg_tooltip             = "Allow Xtg injectors to spawn in game.",
+
+	Sandbox_Injectors_allow_zagustin                = "Spawn Zagustin Injectors",
+	Sandbox_Injectors_allow_zagustin_tooltip        = "Allow Zagustin injectors to spawn in game.",
+
+	Sandbox_Injectors_adrenaline_chance             = "Adrenaline Injector Chance %",
+	Sandbox_Injectors_adrenaline_chance_tooltip     = "Chance for an Adrenaline injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_ahf1_chance                   = "Ahf1 Injector Chance %",
+	Sandbox_Injectors_ahf1_chance_tooltip           = "Chance for an Ahf1 injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_btg2a2_chance                 = "Btg2a2 Injector Chance %",
+	Sandbox_Injectors_btg2a2_chance_tooltip         = "Chance for a Btg2a2 injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_btg3_chance                   = "Btg3 Injector Chance %",
+	Sandbox_Injectors_btg3_chance_tooltip           = "Chance for a Btg3 injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_etg_chance                    = "Etg Injector Chance %",
+	Sandbox_Injectors_etg_chance_tooltip            = "Chance for an Etg injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_meldonin_chance               = "Meldonin Injector Chance %",
+	Sandbox_Injectors_meldonin_chance_tooltip       = "Chance for a Meldonin injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_morphine_chance               = "Morphine Injector Chance %",
+	Sandbox_Injectors_morphine_chance_tooltip       = "Chance for a Morphine injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_mule_chance                   = "Mule Injector Chance %",
+	Sandbox_Injectors_mule_chance_tooltip           = "Chance for a Mule injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_norepinephrine_chance         = "Norepinephrine Injector Chance %",
+	Sandbox_Injectors_norepinephrine_chance_tooltip = "Chance for a Norepinephrine injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_obdolbos_chance               = "Obdolbos Injector Chance %",
+	Sandbox_Injectors_obdolbos_chance_tooltip       = "Chance for an Obdolbos injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_obdolbos2_chance              = "Obdolbos2 Injector Chance %",
+	Sandbox_Injectors_obdolbos2_chance_tooltip      = "Chance for an Obdolbos2 injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_p22_chance                    = "P22 Injector Chance %",
+	Sandbox_Injectors_p22_chance_tooltip            = "Chance for a P22 injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_perfotoran_chance             = "Perfotoran Injector Chance %",
+	Sandbox_Injectors_perfotoran_chance_tooltip     = "Chance for a Perfotoran injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_pnb_chance                    = "Pnb Injector Chance %",
+	Sandbox_Injectors_pnb_chance_tooltip            = "Chance for a Pnb injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_propital_chance               = "Propital Injector Chance %",
+	Sandbox_Injectors_propital_chance_tooltip       = "Chance for a Propital injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_sj1_chance                    = "Sj1 Injector Chance %",
+	Sandbox_Injectors_sj1_chance_tooltip            = "Chance for a Sj1 injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_sj6_chance                    = "Sj6 Injector Chance %",
+	Sandbox_Injectors_sj6_chance_tooltip            = "Chance for a Sj6 injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_sj9_chance                    = "Sj9 Injector Chance %",
+	Sandbox_Injectors_sj9_chance_tooltip            = "Chance for a Sj9 injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_sj12_chance                   = "Sj12 Injector Chance %",
+	Sandbox_Injectors_sj12_chance_tooltip           = "Chance for a Sj12 injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_trimadol_chance               = "Trimadol Injector Chance %",
+	Sandbox_Injectors_trimadol_chance_tooltip       = "Chance for a Trimadol injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_xtg_chance                    = "Xtg Injector Chance %",
+	Sandbox_Injectors_xtg_chance_tooltip            = "Chance for an Xtg injector to be included as a spawn candidate.",
+
+	Sandbox_Injectors_zagustin_chance               = "Zagustin Injector Chance %",
+	Sandbox_Injectors_zagustin_chance_tooltip       = "Chance for a Zagustin injector to be included as a spawn candidate.",
+}

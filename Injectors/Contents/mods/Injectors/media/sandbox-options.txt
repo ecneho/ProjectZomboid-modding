@@ -1,0 +1,371 @@
+VERSION = 1,
+
+option Injectors.RollCount {
+    type = integer,
+    default = 3,
+    min = 0,
+    max = 10,
+
+    page = Injectors,
+    translation = Injectors_RollCount,
+}
+
+option Injectors.SpawnRooms {
+    type = string,
+    default = Nurse;SafehouseLoot;armystorage;armytent;dentist;druglab;drugshack;gym;hospitalhallway;hospitalroom;hospitalstorage;medical;medicaloffice;medicalstorage;morgue;oldarmy;oldmedical;pharmacy;pharmacystorage;warehouse;bathroom;medclinic;,
+
+    page = Injectors,
+    translation = Injectors_SpawnRooms,
+}
+
+option Injectors.AllowAdrenaline {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_adrenaline,
+}
+
+option Injectors.AdrenalineChance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_adrenaline_chance,
+}
+
+option Injectors.AllowAhf1 {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_ahf1,
+}
+
+option Injectors.Ahf1Chance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_ahf1_chance,
+}
+
+option Injectors.AllowBtg2a2 {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_btg2a2,
+}
+
+option Injectors.Btg2a2Chance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_btg2a2_chance,
+}
+
+option Injectors.AllowBtg3 {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_btg3,
+}
+
+option Injectors.Btg3Chance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_btg3_chance,
+}
+
+option Injectors.AllowEtg {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_etg,
+}
+
+option Injectors.EtgChance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_etg_chance,
+}
+
+option Injectors.AllowMeldonin {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_meldonin,
+}
+
+option Injectors.MeldoninChance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_meldonin_chance,
+}
+
+option Injectors.AllowMorphine {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_morphine,
+}
+
+option Injectors.MorphineChance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_morphine_chance,
+}
+
+option Injectors.AllowMule {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_mule,
+}
+
+option Injectors.MuleChance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_mule_chance,
+}
+
+option Injectors.AllowNorepinephrine {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_norepinephrine,
+}
+
+option Injectors.NorepinephrineChance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_norepinephrine_chance,
+}
+
+option Injectors.AllowObdolbos {
+    type = boolean,
+    default = false,
+    page = Injectors,
+    translation = Injectors_allow_obdolbos,
+}
+
+option Injectors.ObdolbosChance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_obdolbos_chance,
+}
+
+option Injectors.AllowObdolbos2 {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_obdolbos2,
+}
+
+option Injectors.Obdolbos2Chance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_obdolbos2_chance,
+}
+
+option Injectors.AllowP22 {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_p22,
+}
+
+option Injectors.P22Chance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_p22_chance,
+}
+
+option Injectors.AllowPerfotoran {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_perfotoran,
+}
+
+option Injectors.PerfotoranChance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_perfotoran_chance,
+}
+
+option Injectors.AllowPnb {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_pnb,
+}
+
+option Injectors.PnbChance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_pnb_chance,
+}
+
+option Injectors.AllowPropital {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_propital,
+}
+
+option Injectors.PropitalChance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_propital_chance,
+}
+
+option Injectors.AllowSj1 {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_sj1,
+}
+
+option Injectors.Sj1Chance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_sj1_chance,
+}
+
+option Injectors.AllowSj6 {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_sj6,
+}
+
+option Injectors.Sj6Chance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_sj6_chance,
+}
+
+option Injectors.AllowSj9 {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_sj9,
+}
+
+option Injectors.Sj9Chance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_sj9_chance,
+}
+
+option Injectors.AllowSj12 {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_sj12,
+}
+
+option Injectors.Sj12Chance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_sj12_chance,
+}
+
+option Injectors.AllowTrimadol {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_trimadol,
+}
+
+option Injectors.TrimadolChance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_trimadol_chance,
+}
+
+option Injectors.AllowXtg {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_xtg,
+}
+
+option Injectors.XtgChance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_xtg_chance,
+}
+
+option Injectors.AllowZagustin {
+    type = boolean,
+    default = true,
+    page = Injectors,
+    translation = Injectors_allow_zagustin,
+}
+
+option Injectors.ZagustinChance {
+    type = double,
+    default = 1.5,
+    min = 0.0,
+    max = 100.0,
+    page = Injectors,
+    translation = Injectors_zagustin_chance,
+}

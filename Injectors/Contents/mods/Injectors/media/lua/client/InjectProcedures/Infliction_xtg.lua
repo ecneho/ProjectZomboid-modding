@@ -1,6 +1,7 @@
 local Values = {
     ["Health"] = -10,
-    ["Infected"] = false
+    ["Infected"] = false,
+    ["Infection"] = -30
 }
 
 local trait = "influence_xtg"
@@ -12,6 +13,7 @@ TraitFactory.addTrait(trait, trait, -50, trait, true);
 event:plan({
     mainFunc = function()
         Player:alterInfected(Values["Infected"])
+        Player:alterInfectionLevel(OverTime(Values["Infection"], Seconds(60)))
     end,
     delay    = Seconds(6),
     duration = Seconds(60),
@@ -29,15 +31,13 @@ event:plan({
     repeated = false
 })
 
-function Xtg_OnInject(player, item)
+function Xtg_OnInject(item, player, _)
+    local inventory = player:getInventory()
     if player:getTraits():contains(trait) == false then
         player:getModData()[duration] = 0
         player:getTraits():add(trait)
-
-        local inventory = player:getInventory()
-        inventory:Remove(item)
-        inventory:AddItem('injectorItems.injector_empty')
     else
+        inventory:AddItem(item:getFullType())
         player:Say(InjectWhileBuffedPhrase[ZombRand(#InjectWhileBuffedPhrase)+1])
     end
 end

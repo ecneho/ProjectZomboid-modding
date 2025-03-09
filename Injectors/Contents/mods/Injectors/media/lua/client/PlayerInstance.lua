@@ -124,6 +124,14 @@ function PlayerInstance:alterInfected(isInfected)
     self.player:getBodyDamage():setIsFakeInfected(isInfected)
 end
 
+function PlayerInstance:alterInfectionLevel(amount)
+    if self.player == nil then return end
+    local infection = self.player:getBodyDamage():getInfectionLevel() + amount
+    local fakeInfection = self.player:getBodyDamage():getFakeInfectionLevel() + amount
+    self.player:getBodyDamage():setInfectionLevel(Clamp(infection, 0, 100))
+    self.player:getBodyDamage():setFakeInfectionLevel(Clamp(fakeInfection, 0, 100))
+end
+
 function PlayerInstance:alterWoundTime(amount)
     if self.player == nil then return end
     local parts = self.player:getBodyDamage():getBodyParts()

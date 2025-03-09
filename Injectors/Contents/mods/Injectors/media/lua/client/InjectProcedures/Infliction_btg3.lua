@@ -62,15 +62,13 @@ event:plan({
     repeated = true
 })
 
-function Btg3_OnInject(player, item)
+function Btg3_OnInject(item, player, _)
+    local inventory = player:getInventory()
     if player:getTraits():contains(trait) == false then
         player:getModData()[duration] = 0
         player:getTraits():add(trait)
-
-        local inventory = player:getInventory()
-        inventory:Remove(item)
-        inventory:AddItem('injectorItems.injector_empty')
     else
+        inventory:AddItem(item:getFullType())
         player:Say(InjectWhileBuffedPhrase[ZombRand(#InjectWhileBuffedPhrase)+1])
     end
 end

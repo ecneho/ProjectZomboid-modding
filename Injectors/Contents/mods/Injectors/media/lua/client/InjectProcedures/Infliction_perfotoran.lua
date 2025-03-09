@@ -1,10 +1,11 @@
 local Values = {
-    ["Hunger"] = 0.03,
+    ["Hunger"] = 0.3,
     ["Health"] = -15,
     ["WoundHeal"] = 0.004,
     ["Metabolism"] = 0.5,
-    ["LimbHealth"] = 0.5,
-    ["Infected"] = false
+    ["LimbHealth"] = 0.005,
+    ["Infected"] = false,
+    ["Infection"] = -15
 }
 
 local trait = "influence_perfotoran"
@@ -19,6 +20,7 @@ event:plan({
         Player:alterMetabolism(Values["Metabolism"])
         Player:alterWoundTime(Values["WoundHeal"])
         Player:alterInfected(Values["Infected"])
+        Player:alterInfectionLevel(OverTime(Values["Infection"], Seconds(60)))
     end,
     delay    = Seconds(1),
     duration = Seconds(60),
@@ -28,7 +30,7 @@ event:plan({
 
 event:plan({
     mainFunc = function()
-        Player:alterHunger(Values["Hunger"])
+        Player:alterHunger(OverTime(Values["Hunger"], Seconds(60)))
     end,
     delay    = Seconds(60),
     duration = Seconds(60),
@@ -46,15 +48,13 @@ event:plan({
     repeated = false
 })
 
-function Perfotoran_OnInject(player, item)
+function Perfotoran_OnInject(item, player, _)
+    local inventory = player:getInventory()
     if player:getTraits():contains(trait) == false then
         player:getModData()[duration] = 0
         player:getTraits():add(trait)
-
-        local inventory = player:getInventory()
-        inventory:Remove(item)
-        inventory:AddItem('injectorItems.injector_empty')
     else
+        inventory:AddItem(item:getFullType())
         player:Say(InjectWhileBuffedPhrase[ZombRand(#InjectWhileBuffedPhrase)+1])
     end
 end

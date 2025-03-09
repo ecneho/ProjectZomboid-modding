@@ -5,231 +5,427 @@ module injectorItems{
 
   item injector_adrenaline
   {
-    DisplayName = Adrenaline Injector,
+	DisplayName	=	Adrenaline Injector,
     DisplayCategory = FirstAid,
-    Weight = 0.1,
-    Icon = adrenaline,
-    Medical = TRUE,
-    WorldStaticModel = adrenaline-closed
+	Icon	=	adrenaline,
+    WorldStaticModel = adrenaline-closed,
+
+		OnEat = Adrenaline_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_ahf1
   {
     DisplayName = AHF1-M Stimulant Injector,
     DisplayCategory = FirstAid,
-    Weight = 0.1,
     Icon = ahf1,
-    Medical = TRUE,
     WorldStaticModel = ahf1-closed,
+
+		OnEat = Ahf1_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
   
     item injector_btg2a2
   {
     DisplayName = 2A2-(b-TG) Stimulant Injector,
     DisplayCategory = FirstAid,
-    Weight = 0.1,
     Icon = btg2a2,
-    Medical = TRUE,
     WorldStaticModel = btg2a2-closed,
+
+		OnEat = Btg2a2_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_btg3
   {
     DisplayName = 3-(b-TG) Stimulant Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = btg3,
-    Medical = TRUE,
     WorldStaticModel = btg3-closed,
+
+		OnEat = Btg3_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_etg
   {
     DisplayName = eTG-Change Regenerative Stimulant Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = etg,
-    Medical = TRUE,
     WorldStaticModel = etg-closed,
+
+		OnEat = Etg_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_meldonin
   {
     DisplayName = Meldonin Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = meldonin,
-    Medical = TRUE,
     WorldStaticModel = meldonin-closed,
+
+		OnEat = Meldonin_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_morphine
   {
     DisplayName = Morphine Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = morphine,
-    Medical = TRUE,
     WorldStaticModel = morphine-closed,
+
+		OnEat = Morphine_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_mule
   {
     DisplayName = M.U.L.E. Stimulant Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = mule,
-    Medical = TRUE,
     WorldStaticModel = mule-closed,
+
+		OnEat = Mule_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_norepinephrine
   {
     DisplayName = L1 (Norepinephrine) Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = norepinephrine,
-    Medical = TRUE,
     WorldStaticModel = norepinephrine-closed,
+
+		OnEat = Norepinephrine_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_obdolbos
   {
     DisplayName = Obdolbos Cocktail Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = obdolbos,
-    Medical = TRUE,
     WorldStaticModel = obdolbos-closed,
+
+		OnEat = Obdolbos_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_obdolbos2
   {
     DisplayName = Obdolbos 2 Cocktail Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = obdolbos2,
-    Medical = TRUE,
     WorldStaticModel = obdolbos2-closed,
+
+		OnEat = Obdolbos2_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_p22
   {
     DisplayName = P22 (Product 22) Stimulant Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = p22,
-    Medical = TRUE,
     WorldStaticModel = p22-closed,
+
+		OnEat = P22_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_perfotoran
   {
     DisplayName = Perfotoran (Blue Blood) Stimulant Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = perfotoran,
-    Medical = TRUE,
     WorldStaticModel = perfotoran-closed,
+
+		OnEat = Perfotoran_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_pnb
   {
     DisplayName = PNB (Product 16) Stimulant Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = pnb,
-    Medical = TRUE,
     WorldStaticModel = pnb-closed,
+
+		OnEat = Pnb_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_propital
   {
     DisplayName = Propital Regenerative Stimulant Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = propital,
-    Medical = TRUE,
     WorldStaticModel = propital-closed,
+
+		OnEat = Propital_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_sj1
   {
     DisplayName = SJ1 TGLabs Combat Stimulant Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = sj1,
-    Medical = TRUE,
     WorldStaticModel = sj1-closed,
+
+		OnEat = Sj1_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_sj6
   {
     DisplayName = SJ6 TGLabs Combat Stimulant Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = sj6,
-    Medical = TRUE,
     WorldStaticModel = sj6-closed,
+
+		OnEat = Sj6_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_sj9
   {
     DisplayName = SJ9 TGLabs Combat Stimulant Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = sj9,
-    Medical = TRUE,
     WorldStaticModel = sj9-closed,
+
+		OnEat = Sj9_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_sj12
   {
     DisplayName = SJ12 TGLabs Combat Stimulant Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = sj12,
-    Medical = TRUE,
     WorldStaticModel = sj12-closed,
+
+		OnEat = Sj12_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_trimadol
   {
     DisplayName = Trimadol Stimulant Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = trimadol,
-    Medical = TRUE,
     WorldStaticModel = trimadol-closed,
+
+		OnEat = Trimadol_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_xtg
   {
     DisplayName = xTG-12 Antidote Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = FirstAid
     Icon = xtg,
-    Medical = TRUE,
     WorldStaticModel = xtg-closed,
+
+		OnEat = Xtg_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_zagustin
   {
-    DisplayName = AHF1-M Stimulant Injector,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayName = Zagustin Hemostatic Drug Injector,
+    DisplayCategory = FirstAid
     Icon = zagustin,
-    Medical = TRUE,
-    WorldStaticModel = ahf1-closed,
+    WorldStaticModel = zagustin-closed,
+
+		OnEat = Zagustin_OnInject,
+		StaticModel = Injector,
+		EatType = Injector,
+
+		HungerChange	=	0,
+		Weight	=	0.05,
+		Type	=	Food,
+		CustomContextMenu = Inject,
+		CantBeFrozen = TRUE,
+		CustomEatSound = ,
   }
 
   item injector_empty
   {
     DisplayName = Empty Injector Cartridge,
-    DisplayCategory = FirstAid,
-    Weight = 0.1,
+    DisplayCategory = Junk
     Icon = empty,
-    Medical = TRUE,
     WorldStaticModel = injector-empty,
   }
 }

@@ -63,7 +63,7 @@ module injectorItems{
   item injector_btg3
   {
     DisplayName = 3-(b-TG) Stimulant Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = btg3,
     WorldStaticModel = btg3-closed,
 
@@ -82,7 +82,7 @@ module injectorItems{
   item injector_etg
   {
     DisplayName = eTG-Change Regenerative Stimulant Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = etg,
     WorldStaticModel = etg-closed,
 
@@ -101,7 +101,7 @@ module injectorItems{
   item injector_meldonin
   {
     DisplayName = Meldonin Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = meldonin,
     WorldStaticModel = meldonin-closed,
 
@@ -120,7 +120,7 @@ module injectorItems{
   item injector_morphine
   {
     DisplayName = Morphine Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = morphine,
     WorldStaticModel = morphine-closed,
 
@@ -139,7 +139,7 @@ module injectorItems{
   item injector_mule
   {
     DisplayName = M.U.L.E. Stimulant Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = mule,
     WorldStaticModel = mule-closed,
 
@@ -158,7 +158,7 @@ module injectorItems{
   item injector_norepinephrine
   {
     DisplayName = L1 (Norepinephrine) Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = norepinephrine,
     WorldStaticModel = norepinephrine-closed,
 
@@ -177,7 +177,7 @@ module injectorItems{
   item injector_obdolbos
   {
     DisplayName = Obdolbos Cocktail Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = obdolbos,
     WorldStaticModel = obdolbos-closed,
 
@@ -196,7 +196,7 @@ module injectorItems{
   item injector_obdolbos2
   {
     DisplayName = Obdolbos 2 Cocktail Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = obdolbos2,
     WorldStaticModel = obdolbos2-closed,
 
@@ -215,7 +215,7 @@ module injectorItems{
   item injector_p22
   {
     DisplayName = P22 (Product 22) Stimulant Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = p22,
     WorldStaticModel = p22-closed,
 
@@ -234,7 +234,7 @@ module injectorItems{
   item injector_perfotoran
   {
     DisplayName = Perfotoran (Blue Blood) Stimulant Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = perfotoran,
     WorldStaticModel = perfotoran-closed,
 
@@ -253,7 +253,7 @@ module injectorItems{
   item injector_pnb
   {
     DisplayName = PNB (Product 16) Stimulant Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = pnb,
     WorldStaticModel = pnb-closed,
 
@@ -272,7 +272,7 @@ module injectorItems{
   item injector_propital
   {
     DisplayName = Propital Regenerative Stimulant Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = propital,
     WorldStaticModel = propital-closed,
 
@@ -291,7 +291,7 @@ module injectorItems{
   item injector_sj1
   {
     DisplayName = SJ1 TGLabs Combat Stimulant Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = sj1,
     WorldStaticModel = sj1-closed,
 
@@ -310,7 +310,7 @@ module injectorItems{
   item injector_sj6
   {
     DisplayName = SJ6 TGLabs Combat Stimulant Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = sj6,
     WorldStaticModel = sj6-closed,
 
@@ -329,7 +329,7 @@ module injectorItems{
   item injector_sj9
   {
     DisplayName = SJ9 TGLabs Combat Stimulant Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = sj9,
     WorldStaticModel = sj9-closed,
 
@@ -348,7 +348,7 @@ module injectorItems{
   item injector_sj12
   {
     DisplayName = SJ12 TGLabs Combat Stimulant Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = sj12,
     WorldStaticModel = sj12-closed,
 
@@ -367,7 +367,7 @@ module injectorItems{
   item injector_trimadol
   {
     DisplayName = Trimadol Stimulant Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = trimadol,
     WorldStaticModel = trimadol-closed,
 
@@ -386,7 +386,7 @@ module injectorItems{
   item injector_xtg
   {
     DisplayName = xTG-12 Antidote Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = xtg,
     WorldStaticModel = xtg-closed,
 
@@ -405,7 +405,7 @@ module injectorItems{
   item injector_zagustin
   {
     DisplayName = Zagustin Hemostatic Drug Injector,
-    DisplayCategory = FirstAid
+    DisplayCategory = FirstAid,
     Icon = zagustin,
     WorldStaticModel = zagustin-closed,
 
